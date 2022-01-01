@@ -8,9 +8,9 @@ choice = int(input('Choice: '))
 if choice < 1 or choice > 1:
     print('Invalid Selection')
 
-
-x = int(input('Choose your first number: '))
-y = int(input('Choose your second number: '))
+if choice == 1:
+    x = int(input('Choose your first number: '))
+    y = int(input('Choose your second number: '))
 
 #Addition
 if choice == 1:
