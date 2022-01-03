@@ -21,14 +21,15 @@ while endchoice == "":
         print('{} + {} ='.format(x,y),x+y)
 
     #Subtraction
-    if choice == 2:
+    elif choice == 2:
         print('{} - {} ='.format(x,y),x-y)
 
     #Multiplication
-    if choice == 3:
+    elif choice == 3:
         print('{} * {} ='.format(x,y),x*y)
+    
     #Division
-    if choice == 4:
+    elif choice == 4:
         print('{} / {} ='.format(x,y),x/y)
     print('\n')
     endchoice = input('Press Enter to continue...')
