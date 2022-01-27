@@ -1,9 +1,7 @@
 print('Welcome to the best calculator!\n')
-endchoice = ""
-while endchoice == "":
+while True:
     def menu():
         print('Choices:\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division')
-
     print("\n")
     menu(), print("\n")
 
@@ -31,5 +29,6 @@ while endchoice == "":
     #Division
     elif choice == 4:
         print('{} / {} ='.format(x,y),x/y)
+    
     print('\n')
-    endchoice = input('Press Enter to continue...')
+    input('Press Enter to continue...')
